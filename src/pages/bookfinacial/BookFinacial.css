@@ -1,0 +1,130 @@
+.progress-step {
+    background-color: rgb(238, 238, 238) !important;
+    border-radius: 20px !important;
+}
+
+.progress-step .MuiLinearProgress-bar {
+    background-color: #098DEE !important;
+    border-radius: 20px !important;
+}
+
+.progress-on-revenue .MuiLinearProgress-bar {
+    background: linear-gradient(to right, #90caf9, #047edf 99%) !important;
+    border-radius: 20px !important;
+}
+
+
+
+.progress .MuiLinearProgress-bar {
+    background: linear-gradient(to right, #90caf9, #047edf 99%) !important;
+    border-radius: 20px !important;
+}
+
+.progress-on-plan .MuiLinearProgress-bar {
+    background: linear-gradient(to right, #84d9d2, #07cdae) !important;
+    border-radius: 20px !important;
+}
+
+.progress-on-plan-revenue .MuiLinearProgress-bar {
+    background: linear-gradient(to right, #84d9d2, #07cdae) !important;
+    border-radius: 20px !important;
+}
+
+.dashboard-process {
+    background-color: rgb(0, 0, 0, .1) !important;
+    border-radius: 20px !important;
+}
+
+
+.dashboard-process .MuiLinearProgress-bar {
+    background: linear-gradient(108deg, rgba(254, 112, 150, 1) 0%, rgba(255, 191, 150, 1) 100%);
+    border-radius: 20px !important;
+}
+
+.fade-in-effect {
+    /* transform: translateX(100%); */
+    animation: fade-in 0.15s;
+}
+
+.fade-in-effect-fast {
+    /* transform: translateX(100%); */
+    animation: fade-in 0.02s;
+}
+
+
+
+
+
+/* Detail */
+.step-arrow {
+    padding: 8px 32px;
+    border-top-left-radius: 4;
+    border-bottom-left-radius: 4
+}
+
+
+.step-arrow-active {
+    padding: 8px 32px;
+    background-color: #00579B;
+    border-top-left-radius: 4;
+    border-bottom-left-radius: 4;
+    color: white;
+}
+
+.arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}
+
+
+
+.arrow-right-active {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 24px solid #00579B
+}
+
+
+.detai-project-tab-panel {
+    display: flex;
+    /* height: 56vh; */
+    overflow: auto;
+}
+
+
+.MuiTabs-flexContainer {
+    float: left !important;
+}
+
+.group-requester {
+    background-color: #FFFF00;
+}
+
+.group-plan {
+    background-color: #B4C6E7;
+}
+
+.group-ss {
+    background-color: #F7CAAC;
+}
+
+/* .group-delivery .MuiDataGrid-columnHeaderDraggableContainer .MuiDataGrid-columnHeaderTitleContainer {
+    border-bottom: none !important;
+
+} */
+
+
+.group-delivery {
+    background-color: #92D050;
+
+}
+
+
+.group-expected {
+    background-color: #92D050;
+
+}
